@@ -35,6 +35,10 @@ USERNAME=admin
 PASSWORD=SecretPassword
 ```
 
+Once you login go to the menu and under Server Management click status, from there you should be able to see your agent connected and active.
+
+![Wazuh Status](https://github.com/WMRamadan/wazuh-dvwa-scanner/blob/main/images/wazuh_status.png)
+
 ### Wazuh Manager Configuration:
 
 Vulnerability scanning configurations can be found in `config/wazuh_cluster/wazuh_manager.conf` under the `<!-- Vulnerability config -->` section.

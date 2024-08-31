@@ -97,11 +97,11 @@ services:
       - wazuh.indexer:wazuh.indexer
       - wazuh.manager:wazuh.manager
   
-  web-dvwa3:
+  web-dvwa:
     build:
       context: .
       dockerfile: Dockerfile
-    hostname: web-dvwa3
+    hostname: web-dvwa
     restart: always
     ports:
       - "80:80"
