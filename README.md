@@ -57,5 +57,14 @@ Log aggregation configuration can be found in `config/wazuh_cluster/wazuh_manage
 
 Log aggregation configuration can be found in `config/wazuh_agent/ossec.conf` under the `<!-- Log analysis -->` section.
 
-
 For more documentation on Wazuh configuration, vist this [link](https://documentation.wazuh.com/current/user-manual/reference/ossec-conf/index.html)
+
+#### Components
+
+1 - **Wazuh Manager:** Collects, analyzes, and correlates data from various sources, such as logs and events. It also manages the configuration and policies for the Wazuh Agents. The Wazuh Manager generates alerts based on the analysis and sends notifications or takes actions based on predefined rules.
+
+2 - **Wazuh Indexer:** Responsible for storing and indexing the security data collected by the Wazuh Manager. It uses Elasticsearch to index and store log data. The Wazuh Indexer helps in querying and analyzing historical data, providing insights into security events over time.
+
+3 - **Wazuh Agent:** Software package installed on endpoints (servers, workstations, etc.) that collects security-related data and logs from those systems. The Wazuh Agent forwards this data to the Wazuh Manager for analysis. It also applies local monitoring rules and can perform certain actions based on the policies configured by the Wazuh Manager.
+
+4 - **DVWA:** (Damn Vulnerable Web Application) is an open-source, intentionally insecure web application designed for educational purposes. It provides a platform to practice and learn about common web vulnerabilities, such as SQL injection and XSS, in a controlled environment.
