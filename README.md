@@ -1,12 +1,14 @@
 # Wazuh Docker Container Setup for Vulnerability Scanning DVWA Container.
 
+This deployment is defined in the docker-compose.yml file with one Wazuh manager container, one Wazuh indexer container, one Wazuh dashboard container and one DVWA container. 
+
 ## Topology
 
 ![Toplogy](https://github.com/WMRamadan/wazuh-dvwa-scanner/blob/main/images/topology.png)
 
 ## Setup
 
-This deployment is defined in the docker-compose.yml file with one Wazuh manager container, one Wazuh indexer container, one Wazuh dashboard container and one DVWA container. It can be deployed by following these steps:
+Deploy using the following steps:
 
 1) Run the certificate creation script:
 ```
