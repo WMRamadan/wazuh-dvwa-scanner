@@ -51,11 +51,11 @@ WAZUH_VERSION=<wazuh_version_number>
 
 Vulnerability scanning configurations can be found in `config/wazuh_cluster/wazuh_manager.conf` under the `<!-- Vulnerability config -->` section.
 
-Log aggregation configuration can be found in `config/wazuh_cluster/wazuh_manager.conf` under the `<!-- Log analysis -->` section.
+Log configuration can be found in `config/wazuh_cluster/wazuh_manager.conf` under the `<!-- Log analysis -->` section.
 
 ### Wazuh Agent Configuration:
 
-Log aggregation configuration can be found in `config/wazuh_agent/ossec.conf` under the `<!-- Log analysis -->` section.
+Log configuration can be found in `config/wazuh_agent/ossec.conf` under the `<!-- Log analysis -->` section.
 
 For more documentation on Wazuh configuration, vist this [link](https://documentation.wazuh.com/current/user-manual/reference/ossec-conf/index.html)
 
