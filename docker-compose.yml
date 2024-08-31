@@ -105,7 +105,6 @@ services:
     restart: always
     ports:
       - "80:80"
-    command: /bin/bash -c "/var/ossec/bin/wazuh-control start"
     environment:
       - MYSQL_ROOT_PASSWORD=secret
       - MYSQL_PASSWORD=secret
