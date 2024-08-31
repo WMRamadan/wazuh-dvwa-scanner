@@ -6,7 +6,7 @@ This deployment is defined in the docker-compose.yml file with one Wazuh manager
 ```
 docker-compose -f generate-indexer-certs.yml run --rm generator
 ```
-2) Build the docker container:
+2) Build the docker DVWA container:
 ```
 docker compose build
 ```
