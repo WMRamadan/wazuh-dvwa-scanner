@@ -39,6 +39,14 @@ Once you login go to the menu and under Server Management click status, from the
 
 ![Wazuh Status](https://github.com/WMRamadan/wazuh-dvwa-scanner/blob/main/images/wazuh_status.png)
 
+
+### Docker Compose Environment Variables:
+
+In the `.env` file you will find the following variables used within the `docker-compose.yml` file:
+```
+WAZUH_VERSION=<wazuh_version_number>
+```
+
 ### Wazuh Manager Configuration:
 
 Vulnerability scanning configurations can be found in `config/wazuh_cluster/wazuh_manager.conf` under the `<!-- Vulnerability config -->` section.
