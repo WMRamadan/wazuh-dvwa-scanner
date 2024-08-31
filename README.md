@@ -25,6 +25,8 @@ PASSWORD=password
 
 Once you login click the `Create / Reset Database` button to setup the database, then login again.
 
+![DVWA Setup](https://github.com/WMRamadan/wazuh-dvwa-scanner/blob/main/images/dvwa_screenshot.png)
+
 ## WAZUH:
 
 Naviate to WAZUH Dashboard `https://localhost/` and login using the credentials below:
