@@ -53,6 +53,14 @@ Once you login go to the menu and under Server Management click status, from the
 In the `.env` file you will find the following variables used within the `docker-compose.yml` file:
 ```
 WAZUH_VERSION=<wazuh_version_number>
+WAZUH_API_USERNAME=<wazuh_api_username>
+WAZUH_API_PASSWORD=<wazuh_api_password>
+WAZUH_INDEXER_USERNAME=<wazuh_indexer_username>
+WAZUH_INDEXER_PASSWORD=<wazuy_indexer_password>
+WAZUH_DASHBOARD_USERNAME=<wazuh_dashboard_username>
+WAZUH_DASHBOARD_PASSWORD=<wazuh_dashboard_password>
+DVWA_MYSQL_ROOT_PASSWORD=<dvwa_mysql_root_password>
+DVWA_MYSQL_PASSWORD=<dvwa_mysql_password>
 ```
 
 ### Wazuh Manager Configuration:
