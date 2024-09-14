@@ -12,7 +12,7 @@ Deploy using the following steps:
 
 1) Run the certificate creation script:
 ```
-docker-compose -f generate-indexer-certs.yml run --rm generator
+docker compose -f generate-indexer-certs.yml run --rm generator
 ```
 2) Build the DVWA docker container:
 ```
